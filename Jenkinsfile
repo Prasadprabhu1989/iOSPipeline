@@ -32,7 +32,7 @@ pipeline {
 			keychainPath:  '${HOME}/Library/Keychains/login.keychain',
  			keychainPwd: hudson.util.Secret.fromString(''),
  			logfileOutputDirectory: '', 
-			provisioningProfiles: [[provisioningProfileAppId: 'com.lockdown.app', 				provisioningProfileUUID: '4e3f3e97-d9d0-465e-9340-de6a3e0acc30']],
+			provisioningProfiles: [[provisioningProfileAppId: 'com.lockdown.app', 				provisioningProfileUUID: 'C8AB78DB-7856-4535-846A-E41F128C24D8']],
  			resultBundlePath: '', 
 			sdk: '', 
 			signingMethod: 'manual',
