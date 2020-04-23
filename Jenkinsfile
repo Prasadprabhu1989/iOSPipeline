@@ -45,7 +45,7 @@ pipeline {
 	xcodeProjectPath: 'iOSPipeline', 
 	xcodeSchema: 'iOSPipeline', 
 	xcodeWorkspaceFile: '', 
-	xcodebuildArguments: 'test -destination \'platform=iOS Simulator,OS=13.5,name=iPhone 11 Pro Max\''
+	xcodebuildArguments: 'test -destination \'platform=iOS Simulator,OS=13.4,name=iPhone 11 Pro Max\''
 }
                    } 
      } 
