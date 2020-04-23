@@ -20,6 +20,34 @@
                ReferencedContainer = "container:iOSPipeline.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "334FDA992449E6640091AA2F"
+               BuildableName = "iOSPipelineTests.xctest"
+               BlueprintName = "iOSPipelineTests"
+               ReferencedContainer = "container:iOSPipeline.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "334FDAA42449E6640091AA2F"
+               BuildableName = "iOSPipelineUITests.xctest"
+               BlueprintName = "iOSPipelineUITests"
+               ReferencedContainer = "container:iOSPipeline.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
