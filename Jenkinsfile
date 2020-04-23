@@ -25,7 +25,16 @@ compileBitcode: false,
 configuration: 'development', 
 developmentTeamID: 'ULN4HA5APP', 
 developmentTeamName: '', 
-displayImageURL: '', fullSizeImageURL: '', ipaExportMethod: 'development', ipaName: '$(VERSION)_$(BUILD_DATE)', ipaOutputDirectory: '', keychainId: '', keychainPath: '${HOME}/Library/Keychains/login.keychain', keychainPwd: <object of type hudson.util.Secret>, logfileOutputDirectory: '', provisioningProfiles: [[provisioningProfileAppId: 'com.lockdown.app', provisioningProfileUUID: '4e3f3e97-d9d0-465e-9340-de6a3e0acc30']], resultBundlePath: '', sdk: '', signingMethod: 'manual', symRoot: '', target: '', thinning: '', unlockKeychain: true, uploadBitcode: false, uploadSymbols: false, xcodeProjectFile: '', xcodeProjectPath: 'iOSPipeline', xcodeSchema: '', xcodeWorkspaceFile: '', xcodebuildArguments: ''
+displayImageURL: '', 
+fullSizeImageURL: '', 
+ipaExportMethod: 'development',
+ ipaName: '$(VERSION)_$(BUILD_DATE)', 
+ipaOutputDirectory: '', keychainId: '', 
+keychainPath: '${HOME}/Library/Keychains/login.keychain', 
+keychainPwd: hudson.util.Secret.fromString(''), 
+logfileOutputDirectory: '', 
+provisioningProfiles: [[provisioningProfileAppId: 'com.lockdown.app', provisioningProfileUUID: '4e3f3e97-d9d0-465e-9340-de6a3e0acc30']], 
+resultBundlePath: '', sdk: '', signingMethod: 'manual', symRoot: '', target: '', thinning: '', unlockKeychain: true, uploadBitcode: false, uploadSymbols: false, xcodeProjectFile: '', xcodeProjectPath: 'iOSPipeline', xcodeSchema: '', xcodeWorkspaceFile: '', xcodebuildArguments: ''
 }
                    } 
      } 
