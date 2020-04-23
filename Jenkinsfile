@@ -12,7 +12,7 @@ stages {
 stage('Build') {
 steps {
 exportIpa appURL: '',
-archiveDir: '',
+archiveDir: '${WORKSPACE}/build',
 assetPackManifestURL: '',
 compileBitcode: false,
 developmentTeamID: 'ULN4HA5APP',
@@ -21,7 +21,7 @@ displayImageURL: '',
 fullSizeImageURL: '',
 ipaExportMethod: 'development',
 ipaName: '${VERSION}_${BUILD_DATE}',
-ipaOutputDirectory: '${WORKSPACE}/builds',
+ipaOutputDirectory: '${WORKSPACE}/build',
 keychainName: '',
 keychainPath:  '${HOME}/Library/Keychains/login.keychain',
 keychainPwd: hudson.util.Secret.fromString(''),
