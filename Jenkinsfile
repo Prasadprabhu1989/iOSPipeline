@@ -12,7 +12,7 @@ stages {
 stage('Build') {
 steps {
 exportIpa appURL: '',
-archiveDir: '${WORKSPACE}/iOSPipeline',
+archiveDir: '${WORKSPACE}/build',
 assetPackManifestURL: '',
 compileBitcode: false,
 developmentTeamID: 'ULN4HA5APP',
