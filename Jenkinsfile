@@ -11,7 +11,7 @@ agent any
 stages {
 stage('Build') {
 
-xcodeBuild {
+steps {
 xcodeBuild appURL: '', 
 assetPackManifestURL: '', 
 buildDir: '$(WORKSPACE)/build', 
