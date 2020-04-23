@@ -452,7 +452,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = ULN4HA5APP;
 				INFOPLIST_FILE = iOSPipeline/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,7 +473,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = ULN4HA5APP;
 				INFOPLIST_FILE = iOSPipeline/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
